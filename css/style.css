@@ -1,34 +1,93 @@
 body {
-  background: url("../img/romanesco.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1vh;
+  margin: 0px;
+  background-color: #212121;
 }
+
+
 
 .menuWrapper {
   height: auto;
-  width: 200px;
+  width: 250px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
 }
 
+.menuWrapperOm {
+  height: auto;
+  width: 350px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menuWrapperMini {
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  top: 150px;
+  left: 10px;
+}
+
+.atag {
+  text-decoration: none !important;
+}
+
 i {
   color: white;
 }
 
+#logo {
+  height: 100px;
+}
+
+#omImg {
+  height: 260px;
+}
+
+.omTxt {
+  line-height: 1.6;
+  padding: 5px;
+}
+
+.backgroundDiv {
+
+  overflow: hidden !important;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.backgroundDiv img {
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
 h2, h1 {
-  background-color: #37474F;
   padding: 3px;
   color: white;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   font-weight: 700;
 }
 
+.menuSection {
+  font-size: 8px;
+}
+
 .socialWrapper {
-  background-color: #37474F;
   padding: 3px;
 }
 
@@ -39,8 +98,8 @@ h2, h1 {
   height: 800px;
 }
 
-h1:hover {
-  color: #B2FF59;
+h2:hover {
+  color: #212121;
   background-color: white;
 }
 
